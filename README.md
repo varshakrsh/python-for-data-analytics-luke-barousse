@@ -1,4 +1,5 @@
 # Python for Data Analytics
+## Overview
 This repo contains all the exercises and my final project that I completed following Luke Barousse's Python for data analytics youtube video. As someone who's quite
 familiar with python and its industry standard libraries through my UG coursework, I picked up this course to brush up my skills before starting my masters in business
 analytics at NUS. It turned out to be exactly what I was looking for, less theory and more hands-on practice exercises, which helped me get comfortable with python. So, I am 
@@ -24,4 +25,4 @@ It all came together at the end with the [final project](03_project) where I had
 - The final project pulled all of this together into a real job market analysis. While I had worked on case studies before, this was the first time I got to pull off a perfect one with polished, presentation-ready visuals telling a clear story, with Luke's guidance walking me through the process. It gave me a real sense of what actual analytics work looks like, compared to the smaller exercises I'd worked through earlier in the course.
 
 ## Acknowledgment
-All credit for the course structure and teaching goes to Luke Barousse. This repo is just my own work following along.
+All credit for the course structure and teaching goes to Luke Barousse. This repo is just my own work following along with his course.

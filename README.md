@@ -4,7 +4,7 @@ familiar with python and its industry standard libraries through my UG coursewor
 analytics at NUS. It turned out to be exactly what I was looking for, less theory and more hands-on practice exercises, which helped me get comfortable with python. So, I am 
 keeping this repo as a record of my learning progress and as something I can point to later.
 
-## What was covered
+## What was Covered
 The course builds up gradually, starting with core Python basics like variables, functions, classes, different types of operators, different types of built-in data structures and more, then moving into Pandas for inspecting data, cleaning messy data (handling missing values, working with dates), and analysis techniques like grouping,  merging dataframes, and creating pivot tables. Later, the course shifted toward visualisation libraries: Matplotlib and Seaborn, covering everything
 from basic charts to pie charts, scatter plots, histograms, box plots, and finally presentation-ready formatting using Seaborn.
 
@@ -17,7 +17,7 @@ It all came together at the end with the [final project](03_project) where I had
 - Seaborn
 - Git and Github
 
-## What I learned
+## What I Learned
 - This course was a great refresher on Python fundamentals that I had learned back in my UG and it pushed me to write code comfortably and fix errors in the code by myself instead of asking AI chatbots.
 - It also helped me develop a love for cleaning messy datasets which is something I used to dread before.
 - It also taught me how to build and format charts in such a way that they are both insightful and visually appealing.

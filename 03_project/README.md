@@ -91,6 +91,8 @@ The final analysis pulls the demand and salary aspects together. For data analys
 - Python stood out as the most optimal skill which is solidly in demand as well as near the top of the pay skill.
 - Tools like Excel and Word were common but paid less, and niche tools like Oracle paid well but were rarely requested.
 
+## Conclusion
+
 
 
 

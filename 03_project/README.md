@@ -17,7 +17,7 @@ The dataset used across all 5 notebooks is a large collection of real data-relat
 - Matplotlib and Seaborn: For building visualisations.
 - VS code: Where all the analysis took place.
 
-## Data Cleaning:
+## Data Cleaning
 Before starting the analysis, each notebook starts with the same cleaning steps as the original dataset needed some reshaping to make it usable and reliable.
 
 - I converted the `job_posted_date` column from a string into datetime format, so that the data can be grouped by month for trend analysis.
@@ -25,5 +25,39 @@ Before starting the analysis, each notebook starts with the same cleaning steps 
 - For specific notebooks, I filtered the postings to specific countries and specific roles to ensure a focused analysis without mixing up with irrelevant entries.
 - Once the `job_skills` column was converted into a list, I used the `.explode()` function to convert each skill into a separate row. This made it possible to group and count the frequency of skills instead of treating each job's associated skill list as an entire unit.
 - For salary-related analysis, I dropped postings with missing salary values as there was nothing to analyse without those numbers.
+
+## Analysis
+1. [Exploratory data analysis](03_project/01_eda_intro.ipynb):
+   
+To get an idea of what's in the dataset, I started by narrowing in on business analyst jobs in the US and identified where these jobs are posted, which companies are hiring the most, and some basic conditions like whether the role is remote, if a degree is explicitly required, and whether health insurance is provided. This was done to get more comfortable with the dataset before proceeding with the hard questions.
+
+### Insights
+<img width="600" height="375" alt="image" src="https://github.com/user-attachments/assets/5ebdd2d8-c223-4c86-bb29-e73cda3b5e09" />
+
+
+<img width="600" height="375" alt="image" src="https://github.com/user-attachments/assets/fa7f4a57-648c-4b4a-ad99-2e839945d9f1" />
+
+
+<img width="551" height="186" alt="image" src="https://github.com/user-attachments/assets/5020c196-4ff9-491e-bc5d-818278183d37" />
+
+- Remote postings indicated by "Anywhere" outnumber any single city, with Atlanta, Chicago, and Tampa leading the on-site listings.
+- Only about 8% of postings are explicitly work-from-home and around 35% mention health insurance, so most listings leave benefits unstated.
+- Only a small fraction of the listings require a degree, which indicates that the job market is more accessible.
+- The companies that hire the most are staffing agencies like Robert Half and Dice, not direct employers.
+
+2. [Skill demand](03_project/02_skill_demand.ipynb):
+   
+For this analysis, I looked into which skills show up the most for the top 3 data jobs- data analyst, data scientist, and data engineer. I did this by exploding out the skills column and calculating what percentage of postings for each role mention each skill. This was helpful in highlighting the differences between the three jobs.
+
+### Insights
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/aa0df546-e922-4b66-ae58-d88c8a89d8ca" />
+
+- SQL is the one skill that shows up consistently across the 3 data jobs, while the rest of the skills diverge sharply.
+- Data Analyst roles lean on skills like Excel and Tableau, Data engineer roles require cloud and pipeline tools like AWS and Spark, and Data scientists lean on Python and R.
+- This shows that there isn't a single universal skillset across data roles, depending heavily on the track that you are aiming for.
+
+
+
+
 
 

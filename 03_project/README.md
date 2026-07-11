@@ -54,7 +54,47 @@ For this analysis, I looked into which skills show up the most for the top 3 dat
 
 - SQL is the one skill that shows up consistently across the 3 data jobs, while the rest of the skills diverge sharply.
 - Data Analyst roles lean on skills like Excel and Tableau, Data engineer roles require cloud and pipeline tools like AWS and Spark, and Data scientists lean on Python and R.
-- This shows that there isn't a single universal skillset across data roles, depending heavily on the track that you are aiming for.
+- This shows that there isn't a single universal skillset across data roles, ultimately depending on the track that you are aiming for.
+
+3. [Skill trends](03_project/03_skill_trends.ipynb):
+
+Demand for skills is not static, so this notebook analyses how the demand for top skills required for business analyst jobs change through the year, by creating a pivot table indexed by month. This can help us identify if the demand for a skill is steady, increasing, or diminishing over the year.
+
+### Insights
+<img width="623" height="464" alt="image" src="https://github.com/user-attachments/assets/aa50094e-bf2e-4aca-8882-4dfa5c930d13" />
+
+- The demand for top skills remained relatively stable, with Excel and SQL holding the top spots almost every month.
+- Excel started strong, peaking early in the year, then drifted downward before rising again towards December.
+- Tableau followed a similar downward pattern over the year, while Python and Power BI stayed clustered near the bottom the whole time.
+- This shows that the demand for the top skills isn't flat and changes periodically. So, it's worth rechecking the numbers periodically to understand what's in demand and how to take advantage of the pattern.
+
+4. [Salary analysis](03_project/04_salary_analysis.ipynb):
+
+This notebook shifts from "what are the requirements?" to "what does the job pay?". I compared salary distributions across the top 6 most posted jobs in the US and narrowed down to data analyst roles to compare the skills that pay the most against skills that are demanded the most, which as it turns out, aren't the same skills.
+
+### Insights
+<img width="717" height="457" alt="image" src="https://github.com/user-attachments/assets/9077c913-94ec-4406-ade2-6231b4bd94b1" />
+
+<img width="624" height="463" alt="image" src="https://github.com/user-attachments/assets/5b39435f-15bc-496a-a395-fe30b332f35b" />
+
+- Seniority and role type clearly drive salary. As we can see, data engineer and data scientists are paid more than data analysts. And, senior titles sit well above the non-senior counterparts across each role type.
+- Upon focusing on data analyst jobs, I saw that the top paid skills are rare and specialised tools rather than basic foundational tools. They also barely overlap with the in-demand skills which are basic routine tools like SQL and Excel.
+- This tells us that well paid and most requested skills pull in different directions. The skills that guarantee you interviews do not necessarily come with high salaries and vice-versa.
+
+5. [Optimal skills](03_project/05_optimal_skills.ipynb):
+
+The final analysis pulls the demand and salary aspects together. For data analyst jobs, I plotted the skills that are requested the most against their associated median salaries. I also color coded the skills according to their technology stack (like analyst tools, programming, cloud etc.). This was done to identify the skills that are well paid as well as in demand, and hence worth-learning to stand out well in the job market.
+
+### Insights
+<img width="629" height="470" alt="image" src="https://github.com/user-attachments/assets/783d469a-3282-40da-baa9-5a047f107ad2" />
+
+- Python stood out as the most optimal skill which is solidly in demand as well as near the top of the pay skill.
+- Tools like Excel and Word were common but paid less, and niche tools like Oracle paid well but were rarely requested.
+
+
+
+
+
 
 
 

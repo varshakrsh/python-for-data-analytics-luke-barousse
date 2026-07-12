@@ -27,7 +27,7 @@ Before starting the analysis, each notebook starts with the same cleaning steps 
 - For salary-related analysis, I dropped postings with missing salary values as there was nothing to analyse without those numbers.
 
 ## Analysis
-1. [Exploratory data analysis](03_project/01_eda_intro.ipynb):
+1. [Exploratory data analysis](01_eda_intro.ipynb):
    
 To get an idea of what's in the dataset, I started by narrowing in on business analyst jobs in the US and identified where these jobs are posted, which companies are hiring the most, and some basic conditions like whether the role is remote, if a degree is explicitly required, and whether health insurance is provided. This was done to get more comfortable with the dataset before proceeding with the hard questions.
 

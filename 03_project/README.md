@@ -93,6 +93,8 @@ The final analysis pulls the demand and salary aspects together. For data analys
 
 ## Conclusion
 
+The 5 notebooks together provide a clear picture of the job market. Remote work and flexibility with degree requirements are more common than I thought, however most postings stay quiet about benefits like health insurance. Skill demand varies sharply by role, with SQL being the only constant skill across all data jobs. The demand for these skills aren't fixed either, it keeps changing througout the year even for top skills. Talking about pay, seniority and role matter the most, and the skills that pay the most aren't usually the ones asked for the most. Upon bringing demand and salary together, Python was found to be the most optimal skill to learn on top of fundamentals.
+So if there's one takeway for anyone entering the job market, it's to get comfortable with the fundamentals (SQL, Excel) first as they aren't optional and then build on Python deliberately, as it's one of the few skills that's widely asked for as well as well compensated.
 
 
 

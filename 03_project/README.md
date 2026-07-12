@@ -45,7 +45,7 @@ To get an idea of what's in the dataset, I started by narrowing in on business a
 - Only a small fraction of the listings require a degree, which indicates that the job market is more accessible.
 - The companies that hire the most are staffing agencies like Robert Half and Dice, not direct employers.
 
-2. [Skill demand](03_project/02_skill_demand.ipynb):
+2. [Skill demand](02_skill_demand.ipynb):
    
 For this analysis, I looked into which skills show up the most for the top 3 data jobs- data analyst, data scientist, and data engineer. I did this by exploding out the skills column and calculating what percentage of postings for each role mention each skill. This was helpful in highlighting the differences between the three jobs.
 
@@ -56,7 +56,7 @@ For this analysis, I looked into which skills show up the most for the top 3 dat
 - Data Analyst roles lean on skills like Excel and Tableau, Data engineer roles require cloud and pipeline tools like AWS and Spark, and Data scientists lean on Python and R.
 - This shows that there isn't a single universal skillset across data roles, ultimately depending on the track that you are aiming for.
 
-3. [Skill trends](03_project/03_skill_trends.ipynb):
+3. [Skill trends](03_skill_trends.ipynb):
 
 Demand for skills is not static, so this notebook analyses how the demand for top skills required for business analyst jobs change through the year, by creating a pivot table indexed by month. This can help us identify if the demand for a skill is steady, increasing, or diminishing over the year.
 
@@ -68,7 +68,7 @@ Demand for skills is not static, so this notebook analyses how the demand for to
 - Tableau followed a similar downward pattern over the year, while Python and Power BI stayed clustered near the bottom the whole time.
 - This shows that the demand for the top skills isn't flat and changes periodically. So, it's worth rechecking the numbers periodically to understand what's in demand and how to take advantage of the pattern.
 
-4. [Salary analysis](03_project/04_salary_analysis.ipynb):
+4. [Salary analysis](04_salary_analysis.ipynb):
 
 This notebook shifts from "what are the requirements?" to "what does the job pay?". I compared salary distributions across the top 6 most posted jobs in the US and narrowed down to data analyst roles to compare the skills that pay the most against skills that are demanded the most, which as it turns out, aren't the same skills.
 
@@ -81,7 +81,7 @@ This notebook shifts from "what are the requirements?" to "what does the job pay
 - Upon focusing on data analyst jobs, I saw that the top paid skills are rare and specialised tools rather than basic foundational tools. They also barely overlap with the in-demand skills which are basic routine tools like SQL and Excel.
 - This tells us that well paid and most requested skills pull in different directions. The skills that guarantee you interviews do not necessarily come with high salaries and vice-versa.
 
-5. [Optimal skills](03_project/05_optimal_skills.ipynb):
+5. [Optimal skills](05_optimal_skills.ipynb):
 
 The final analysis pulls the demand and salary aspects together. For data analyst jobs, I plotted the skills that are requested the most against their associated median salaries. I also color coded the skills according to their technology stack (like analyst tools, programming, cloud etc.). This was done to identify the skills that are well paid as well as in demand, and hence worth-learning to stand out well in the job market.
 
